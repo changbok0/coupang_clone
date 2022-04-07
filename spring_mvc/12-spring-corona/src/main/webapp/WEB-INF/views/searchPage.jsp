@@ -43,7 +43,7 @@
       </div>
       <ul class="iconMenu">
         <li>
-        	<a href="">
+        	<a href="OrderPage.do">
         		<span class="material-icons-outlined">person</span>
         		<span>마이쿠팡</span>
         	</a>

@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-public class CartController {
+public class OrderController {
 	
-	@RequestMapping(value="/CartView.do", method=RequestMethod.GET)
-	public String CartView() {
-		return "cartView";
+	@RequestMapping(value="/OrderPage.do", method=RequestMethod.GET)
+	public String OrderPage() {
+		return "orderPage";
 	} 
 }
